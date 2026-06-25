@@ -14,7 +14,7 @@
     "digital"
   ],
   "created": "2026-04-20T03:24:52Z",
-  "updated": "2026-04-20T03:24:52Z",
+  "updated": "2026-06-25T05:08:04Z",
   "source": {
     "type": "git",
     "url": "https://github.com/google-coral/coralnpu",
@@ -32,6 +32,12 @@
       "github": "vyges"
     }
   ],
+  "integration": {
+    "soc_generator_hints": {
+      "top_module": "i2c_master_top",
+      "note": "Integration top is i2c_master_top. Without this hint the soc-generator derives the module name from the IP name ('coralnpu_i2c_master'), which does not match the RTL top module."
+    }
+  },
   "interfaces": [
     {
       "type": "bus",
