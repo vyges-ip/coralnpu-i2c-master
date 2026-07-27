@@ -3,7 +3,7 @@ upstream:
   type: "monorepo"
   source: https://github.com/google-coral/coralnpu
   path: fpga/ip/i2c_master
-  commit: e0fa6f67c6eff78096bc824622df71a5f9bf2439
+  commit: fcb74cfe79dbd184b9c53539490994e701981f80
   extracted_at: "2026-04-01T05:12:35Z"
 import:
   rtl:
